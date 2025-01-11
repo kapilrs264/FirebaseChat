@@ -26,11 +26,11 @@ class AuthActivity : AppCompatActivity() {
         loginButton = findViewById(R.id.loginButton)
         registerButton = findViewById(R.id.registerButton)
 
-        loginButton.setOnClickListener { login() }
+        loginButton.setOnClickListener { loginMethod() }
         registerButton.setOnClickListener { register() }
     }
 
-    private fun login() {
+    private fun loginMethod() {
         val email = emailEditText.text.toString().trim()
         val password = passwordEditText.text.toString().trim()
 
