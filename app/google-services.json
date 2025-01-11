@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485343880414",
+    "project_id": "fir-groupchat-51858",
+    "storage_bucket": "fir-groupchat-51858.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485343880414:android:8ee0ef0eaf852689754e4f",
+        "android_client_info": {
+          "package_name": "com.app.firebasegroupchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD58W9tN0Jh4RkM_dCjtf-votm-suaHB6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

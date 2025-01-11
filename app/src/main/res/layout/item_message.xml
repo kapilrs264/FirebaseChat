@@ -1,0 +1,33 @@
+<!-- item_message.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Message"
+        android:textSize="16sp" />
+
+    <!-- Sent and received layouts can be here -->
+    <LinearLayout
+        android:id="@+id/sentMessageLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Your sent message layout -->
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/receivedMessageLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Your received message layout -->
+    </LinearLayout>
+</LinearLayout>
