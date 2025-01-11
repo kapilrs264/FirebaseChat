@@ -6,6 +6,7 @@ import android.os.Bundle
 class AddMemberActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddMemberBinding
+
     private val db = FirebaseFirestore.getInstance()
     private val auth = FirebaseAuth.getInstance()
     private lateinit var groupId: String
